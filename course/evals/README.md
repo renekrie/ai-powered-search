@@ -1,6 +1,7 @@
-[!NOTE]
-Jupyter Notebooks in this folder are part of the course "LLMs as Judges for Search" by OpenSource Connections.
-Check out https://opensourceconnections.com/training/ for the full course and other classes.
+> [!NOTE]
+>Jupyter Notebooks in this folder are part of the course "LLMs as Judges for Search" by OpenSource Connections.
+>
+> Check out https://opensourceconnections.com/training/ for the full course and further classes.
 
 
 # LLMs as Judges: Modern Approaches to Search Evaluation
