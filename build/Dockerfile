@@ -57,7 +57,7 @@ RUN conda run --name ch5-spacy python -m ipykernel install --name ch5-spacy --di
 COPY build/requirements.txt /home/$NB_USER
 RUN --mount=type=cache,target=$PIP_CACHE_DIR \
     pip install -r requirements.txt && \
-    python -m spacy download en_core_web_sm
+    pip install "en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0-py3-none-any.whl"
 RUN rm course_requirements.txt ch5_spacy_requirements.txt requirements.txt
 
 # Configure home directory
